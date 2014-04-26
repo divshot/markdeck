@@ -1,0 +1,31 @@
+{
+  "name": "markdeck",
+  "version": "0.0.0",
+  "description": "A generalized Markdown format for generating HTML slide decks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divshot/markdeck.git"
+  },
+  "keywords": [
+    "markdown",
+    "presentation",
+    "slides"
+  ],
+  "author": "Michael Bleigh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/divshot/markdeck/issues"
+  },
+  "homepage": "https://github.com/divshot/markdeck",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "marked": "^0.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  }
+}
